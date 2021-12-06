@@ -1,13 +1,29 @@
 import java.util.*;
-
+import java.net.*;
+import java.io.*;
+import java.util.*;
 class sitarabank
 {
-    public static void main (String[]args)
+    public static void main (String[]args) throws UnknownHostException
     {
         //variables start here
 
         //variables end here
-        //user interface start here
+        //internet address start here
+         InetAddress localhost = InetAddress.getLocalHost();
+         System.out.println("SYSTEM IP ADDRESS : " +(localhost.getHostAddress()).trim());
+         String systemipaddress = "";
+         try
+         {
+         URL url_name = new URL("http://bot.whatismyipaddress.com");
+         BufferedReader sc = new BufferedReader(new InputStreamReader(url_name.openStream()));
+         systemipaddress = sc.readLine().trim();
+         }
+         catch (Exception e)
+         {
+         }
+         //internet address end here
+         //user interface start here
          Scanner sc = new Scanner(System.in);
          System.out.println("");
          System.out.println("KINDLY ENTER YOUR FIRST NAME");
@@ -22,8 +38,8 @@ class sitarabank
          System.out.println("");
          System.out.println("AS PER BANKING NORMS WE NEED TO STORE YOUR NAME AND INTERNET ADDRESS FOR SECURITY PURPOSE");
          System.out.println("");
-         System.out.println("YOUR INTERNET ADDRESS IS")
          //user interface end here
+
 
     }
 }
