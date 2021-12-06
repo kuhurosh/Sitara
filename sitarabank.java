@@ -7,7 +7,6 @@ class sitarabank
         //variables start here
 
         //variables end here
-
         //user interface start here
          Scanner sc = new Scanner(System.in);
          System.out.println("");
@@ -21,9 +20,9 @@ class sitarabank
          System.out.println("");
          System.out.println("WE ARE UNDER DEVLOPMENT YOU CAN FACE SOME ERRORS");
          System.out.println("");
-         System.out.println("AS PER BANKING NORMS WE NEED TO STORE YOUR NAME AND IP ADDRESS FOR SECURITY PURPOSE");
+         System.out.println("AS PER BANKING NORMS WE NEED TO STORE YOUR NAME AND INTERNET ADDRESS FOR SECURITY PURPOSE");
          System.out.println("");
-
+         System.out.println("YOUR INTERNET ADDRESS IS")
          //user interface end here
 
     }
