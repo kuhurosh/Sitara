@@ -38,7 +38,6 @@ class sitarabank
          System.out.println("");
          System.out.println("WE ARE UNDER DEVLOPMENT YOU CAN FACE SOME ERRORS");
          System.out.println("");
-         System.out.println("AS PER BANKING NORMS WE NEED TO STORE YOUR NAME AND INTERNET ADDRESS FOR SECURITY PURPOSE");
          System.out.println("");
          while(true)
          {
@@ -49,7 +48,7 @@ class sitarabank
          int vone = random_int_two+random_int_one;
          if(i<1)
          {
-         System.out.println("WE MAY STORE YOUR INTERNET PROTOCOL AND NAME FOR SECURITY REASONS");
+         System.out.println("AS PER BANKING NORMS WE NEED TO STORE YOUR NAME AND INTERNET ADDRESS FOR SECURITY PURPOSE");
          System.out.println("");
          }
          else
@@ -60,7 +59,7 @@ class sitarabank
          System.out.println("YOU HAVE 3 CHANCES TO VERIFY");
          System.out.println("CHANCES USED "+i);
          int userenone = sc.nextInt();
-         if(i==3)
+         if(i==4)
          {
          System.out.println("");
          System.out.println("YOU HAVE USED YOUR CHANCES");
@@ -70,6 +69,7 @@ class sitarabank
          if(userenone == vone)
          {
          System.out.println("sucesss");
+         System.exit(0);
          }
          else
          {
