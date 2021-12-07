@@ -1,5 +1,3 @@
-# Security Policy
-
 ## Supported Versions
 
 | JDK-VER | SUPPORTED          |
