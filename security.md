@@ -5,5 +5,6 @@ everyone can use it without any problem as it is not in functioning state as rea
 - We will save your name and internet address while you used our script for security reasons.
 - You can only do transaction within -/10000.
 - After we verify you we will keep some documents number like national identification, tax identification for your saftey if any thing happen we can show to goverment 
-this user is a verified user. > Note your all crucial details will be safe from our side
+this user is a verified user. 
+> Note your all crucial details will be safe from our side
 - We will store your all transactions but only for your selective time period.
