@@ -28,12 +28,15 @@ class sitarabank
          //user interface start here
          Scanner sc = new Scanner(System.in);
          System.out.println("");
+         System.out.println("VERSION 1.0");
+         System.out.println("");
          System.out.println("KINDLY ENTER YOUR FIRST NAME");
          String namone = sc.nextLine();
          System.out.println("KINDLY ENTER YOUR SURNAME");
          String namtwo = sc.nextLine();
          System.out.println("");
-         System.out.println("HELLO-"+namone.toUpperCase());
+         System.out.println("HELLO -"+namone.toUpperCase().trim());
+         System.out.println("");
          System.out.println("WELCOME TO SITARA BANKING SERVER");
          System.out.println("");
          System.out.println("WE ARE UNDER DEVLOPMENT YOU CAN FACE SOME ERRORS");
@@ -68,8 +71,58 @@ class sitarabank
          }
          if(userenone == vone)
          {
-         System.out.println("sucesss");
+         System.out.println("TO CHOOSE ANY OPTION JUST TYPE 1 OR 2");
+         System.out.println("1. NEW USER");
+         System.out.println("2. OLD USER");
+         int userchone = sc.nextInt();
+         switch(userchone)
+         {
+         case 1:
+         {
+         System.out.println("TO CHOOSE ANY OPTION JUST TYPE 1 OR 2");
+         System.out.println("1. NEW ACCOUNT");
+         System.out.println("2. CREATE VPA ID");
+         System.out.println("3. CREATE TEMPORARY WALLET");
+         switch(userchtwo)
+         {
+         case 1:
+         {
+         System.out.println("HI");
+         System.out.println("   "+namone.toUpperCase().trim());
+         System.out.println("");
+         System.out.println("WE ARE HAPPY 😊 THAT YOU SHOWED INTEREST IN SITARA");
+         System.out.println("");
+         System.out.println("KINDLY ENTER YOUR PHONE NUMBER");
+         long userphone = sc.nextLong();
+         break;
+         }
+         case 2:
+         {
+         break;
+         }
+         case 3:
+         {
+         break;
+         }
+         default:
+         {
+         System.out.println("USER INPUT IS WRONG");
+         }
          System.exit(0);
+         }
+         break;
+         }
+         case 2:
+         {
+         System.out.println("two");
+         break;
+         }
+         default:
+         {
+         System.out.println("USER INPUT IS WRONG");
+         }
+         System.exit(0);
+         }
          }
          else
          {
