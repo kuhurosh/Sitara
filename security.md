@@ -17,11 +17,6 @@
 
 ## Reporting a Vulnerability
 
-If you want to report any vulnerbility in code you can simply raise issues and define the problem
-
-## Secure
-
-As this is a open source code then please dont use it in wrong purposes keep it secure and clean, 
-everyone can use it without any problem as it is not in functioning state as real banks.
+If you want to report any vulnerbility in code you can simply raise issues and define the problem or email us at roshan@parkyrosh.ml
 
 
