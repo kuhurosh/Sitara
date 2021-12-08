@@ -1,7 +1,9 @@
-import java.util.*;
-import java.net.*;
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.InetAddress;
+import java.net.URL;
+import java.net.UnknownHostException;
+import java.util.Scanner;
 class sitarabank
 {
     public static void main (String[]args) throws UnknownHostException
@@ -10,6 +12,7 @@ class sitarabank
         int max = 20;
         int min = 1;
         int i;
+        int z;
         //variables end here
         //internet address start here
          InetAddress localhost = InetAddress.getLocalHost();
@@ -83,21 +86,64 @@ class sitarabank
          System.out.println("1. NEW ACCOUNT");
          System.out.println("2. CREATE VPA ID");
          System.out.println("3. CREATE TEMPORARY WALLET");
+         int userchtwo = sc.nextInt();
          switch(userchtwo)
          {
          case 1:
          {
+         System.out.println("");
          System.out.println("HI");
          System.out.println("   "+namone.toUpperCase().trim());
          System.out.println("");
-         System.out.println("WE ARE HAPPY 😊 THAT YOU SHOWED INTEREST IN SITARA");
+         System.out.println("WE ARE HAPPY :-) THAT YOU SHOWED INTEREST IN SITARA");
+         System.out.println("");
+         while(true)
+         {
+         for(z=0;z<=4;z++)
+         {
+         if(z==3)
+         {
+         System.out.println("");
+         System.out.println("PLEASE TRY AGAIN LATER");
+         System.exit(0);
+         }
+         System.out.println("");
+         System.out.println("KINDLY ENTER YOUR COUNTRY CODE");
+         int pnum = sc.nextInt();
          System.out.println("");
          System.out.println("KINDLY ENTER YOUR PHONE NUMBER");
          long userphone = sc.nextLong();
-         break;
+         long copynumone = userphone;
+         long numcheckone = 0;
+         while(userphone>0)
+         {
+         userphone = userphone/10;
+         numcheckone++;
+         }
+         if(numcheckone==0)
+         {
+         System.out.println("");
+         System.out.println("PLEASE ENTER CORRECTLY");
+         System.out.println("");
+         }
+         else if(numcheckone==10)
+         {
+         System.out.println("SUCCESS");
+         }
+         else
+         {
+         System.out.println("");
+         System.out.println("WRONG NUMBER :-(");
+         int x = 2-z;
+         System.out.println("YOU HAVE "+x+" CHANCES LEFT TO INPUT CORRECT NUMBER");
+         System.out.println("");
+         }
+         }
+         }
          }
          case 2:
          {
+            System.out.println("HELLO");
          break;
          }
          case 3:
