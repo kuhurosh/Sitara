@@ -143,7 +143,7 @@ class sitarabank
          }
          case 2:
          {
-            System.out.println("HELLO");
+            System.out.println("Hi");
          break;
          }
          case 3:
