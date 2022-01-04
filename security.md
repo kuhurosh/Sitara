@@ -7,4 +7,5 @@ everyone can use it without any problem as it is not in functioning state as rea
 - After we verify you we will keep some documents number like national identification, tax identification for your saftey if any thing happen we can show to goverment 
 this user is a verified user. 
 > Note your all crucial details will be safe from our side
-- We will store your all transactions but only for your selective time period.
+- We will store your transactions date, time.
+> We will not store your card credentials
