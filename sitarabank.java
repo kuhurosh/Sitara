@@ -62,7 +62,8 @@ class sitarabank
          System.out.println("");
          }
          System.out.println("PLEASE ADD BOTH THE "+random_int_one+" + "+random_int_two+" NUMBER'S TO VERIFY YOURSELF");
-         System.out.println("YOU HAVE 3 CHANCES TO VERIFY");
+         System.out.println("YOU HAVE "+i+" CHANCES LEFT");
+         int sumca = 8-i;
          System.out.println("CHANCES USED "+i);
          int userenone = sc.nextInt();
          if(i==4)
@@ -129,6 +130,7 @@ class sitarabank
          else if(numcheckone==10)
          {
          System.out.println("SUCCESS");
+         System.exit(0);
          }
          else
          {
