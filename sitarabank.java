@@ -4,6 +4,8 @@ import java.net.InetAddress;
 import java.net.URL;
 import java.net.UnknownHostException;
 import java.util.Scanner;
+
+import javax.lang.model.util.ElementScanner14;
 class sitarabank
 {
     public static void main (String[]args) throws UnknownHostException
@@ -114,6 +116,7 @@ class sitarabank
          System.out.println("");
          System.out.println("KINDLY ENTER YOUR PHONE NUMBER");
          long userphone = sc.nextLong();
+         int copynumtwo = pnum;
          long copynumone = userphone;
          long numcheckone = 0;
          while(userphone>0)
@@ -129,8 +132,30 @@ class sitarabank
          }
          else if(numcheckone==10)
          {
-         System.out.println("SUCCESS");
+         System.out.println("");
+         System.out.println("YOUR PHONE NUMBER IS "+"+"+copynumtwo+" "+copynumone);
+         System.out.println("");
+         System.out.println("TYPE (1) IF IT IS CORRECT");
+         System.out.println("FOR RESUBMITTING YOUR NUMBER TYPE (0)");
+         int userchthree = sc.nextInt();
+         if(userchthree==1)
+         {
+         System.out.println("success");
          System.exit(0);
+         }
+         else if(userchthree==0)
+         {
+         System.out.println("");
+         System.out.println("RESUBMITION");
+         int v = 2-z;
+         System.out.println(""+v+" CHANCES LEFT TO INPUT CORRECT NUMBER");
+         System.out.println("");
+         }
+         else
+         {
+         System.out.println("INVALID INPUT");
+         System.exit(0);
+         }
          }
          else
          {
