@@ -140,7 +140,7 @@ class sitarabank
          int userchthree = sc.nextInt();
          if(userchthree==1)
          {
-         System.out.println("success");
+         System.out.println("KINDLY SELECT BETWEEN 1 TO 5");
          System.exit(0);
          }
          else if(userchthree==0)
