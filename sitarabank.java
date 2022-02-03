@@ -48,7 +48,7 @@ class sitarabank
          System.out.println("KINDLY ENTER YOUR SURNAME");
          String namtwo = sc.nextLine();
          System.out.println("");
-         System.out.println("HELLO -"+namone.toUpperCase().trim());
+         System.out.println("HELLO - "+namone.toUpperCase().trim());
          System.out.println("");
          System.out.println("WELCOME TO SITARA BANKING SERVER");
          System.out.println("");
@@ -85,6 +85,9 @@ class sitarabank
          }
          if(userenone == vone)
          {
+         System.out.println("");
+         System.out.println("YOU HAVE SUCCESSFULLY VERIFIED YOURSELF - "+namone.toUpperCase().trim());
+         System.out.println("");
          System.out.println("TO CHOOSE ANY OPTION JUST TYPE 1 OR 2");
          System.out.println("1. NEW USER");
          System.out.println("2. OLD USER");
@@ -93,6 +96,7 @@ class sitarabank
          {
          case 1:
          {
+         System.out.println("");
          System.out.println("TO CHOOSE ANY OPTION JUST TYPE 1 OR 2");
          System.out.println("1. NEW ACCOUNT");
          System.out.println("2. CREATE VPA ID");
@@ -148,7 +152,12 @@ class sitarabank
          int userchthree = sc.nextInt();
          if(userchthree==1)
          {
-         System.out.println("KINDLY SELECT BETWEEN 1 TO 5");
+         System.out.println("");    
+         System.out.println("KINDLY SELECT BETWEEN 1 TO 4");
+         System.out.println("1. UID NUMBER");
+         System.out.println("2. PAN CARD");
+         System.out.println("3. VOTER ID");
+         System.out.println("4. DRIVING LICENSE");
          System.exit(0);
          }
          else if(userchthree==0)
