@@ -10,12 +10,20 @@ class sitarabank
 {
     public static void main (String[]args) throws UnknownHostException
     {
-        //variables start here
+        //variables start here  
         int max = 20;
         int min = 1;
         int i;
         int z;
         //variables end here
+        //java version handler
+         System.out.println("");
+         System.out.println("Java Version is : "+System.getProperty("java.version"));
+         System.out.println("");
+         System.out.println("Java Version Date : "+System.getProperty("java.version.date"));
+         System.out.println("");
+         System.out.println("Java Vendor : "+System.getProperty("java.vendor"));
+         System.out.println("");     
         //internet address start here
          InetAddress localhost = InetAddress.getLocalHost();
          System.out.println("SYSTEM IP ADDRESS : " +(localhost.getHostAddress()).trim());
