@@ -6,7 +6,7 @@ This is a CLI banking integration created by me, as it was my dream to create my
 
 #### TO USE THIS SCRIPT YOU MUST HAVE JDK VERSIONS ABOVE JDK 16
 
-# How to use it in windows
+## How to use it in windows
 
 - First clone the script from github - [Click to Download Repository](https://github.com/parkyrosh/sitara/archive/refs/heads/master.zip)
 - Then open your windows command promt terminal.
