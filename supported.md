@@ -2,10 +2,10 @@
 
 | JDK-VER | SUPPORTED          |
 | ------- | ------------------ |
-|  11     |  SUPPORTED         |
-|  12     |  SUPPORTED         |
-|  13     |  SUPPORTED         |
-|  14     |  SUPPORTED         |
+|  11     |  NOT SUPPORTED     |
+|  12     |  NOT SUPPORTED     |
+|  13     |  NOT SUPPORTED     |
+|  14     |  NOT SUPPORTED     |
 |  15     |  SUPPORTED         |
 |  16     |  SUPPORTED         |
 |  17     |  SUPPORTED         |
