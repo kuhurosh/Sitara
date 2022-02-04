@@ -25,7 +25,7 @@ This is a CLI banking integration created by me, as it was my dream to create my
 
 ### HOW TO USE IT IN LINUX
 
-- Open your linux terminal - [Click to Download Repository](https://github.com/parkyrosh/sitara/archive/refs/heads/master.zip)
+- Open your linux terminal 
 - Then clone the repository using -- git clone https://github.com/parkyrosh/sitara.git
 
 ![Screenshot from 2022-02-04 12-44-19](https://user-images.githubusercontent.com/74543153/152487696-ce3e9684-64e7-42b4-8fa4-22f1690ca2ba.png)
