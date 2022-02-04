@@ -6,7 +6,7 @@ This is a CLI banking integration created by me, as it was my dream to create my
 
 #### TO USE THIS SCRIPT YOU MUST HAVE JDK VERSIONS ABOVE JDK 16
 
-## How to use it in windows
+### HOW TO USE IT IN WINDOWS
 
 - First clone the script from github - [Click to Download Repository](https://github.com/parkyrosh/sitara/archive/refs/heads/master.zip)
 - Then open your windows command promt terminal.
@@ -23,7 +23,7 @@ This is a CLI banking integration created by me, as it was my dream to create my
 
 ![sfour](https://user-images.githubusercontent.com/74543153/145057713-e137f7e5-e753-4369-aedb-cfb4880705f5.png)
 
-# How to use it in linux
+### HOW TO USE IT IN LINUX
 
 - First clone the script from github - [Click to Download Repository](https://github.com/parkyrosh/sitara/archive/refs/heads/master.zip)
 - Then open your linux terminal.
