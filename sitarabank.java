@@ -15,6 +15,7 @@ class sitarabank
         int min = 1;
         int i;
         int z;
+        String usw = "YOUR CHOICE IS INVALID";
         //variables end here
         //java version handler
          System.out.println("");
@@ -158,7 +159,23 @@ class sitarabank
          System.out.println("2. PAN CARD");
          System.out.println("3. VOTER ID");
          System.out.println("4. DRIVING LICENSE");
-         System.exit(0);
+         int userchfour = sc.nextInt();
+         switch(userchfour)
+         {
+         case 1:
+         {
+                 
+         }
+         default:
+         {
+         System.out.println();
+         int ce = 2-z;
+         System.out.println(""+ce+" CHANCES LEFT TO INPUT CORRECT NUMBER");
+         System.out.println(usw);
+         System.out.println();
+         }
+         //mark
+         }
          }
          else if(userchthree==0)
          {
@@ -170,7 +187,8 @@ class sitarabank
          }
          else
          {
-         System.out.println("INVALID INPUT");
+         System.out.println();
+         System.out.println(usw);
          System.exit(0);
          }
          }
@@ -196,9 +214,11 @@ class sitarabank
          }
          default:
          {
-         System.out.println("USER INPUT IS WRONG");
+         System.out.println();
+         System.out.println(usw);
+         System.out.println();
          }
-         System.exit(0);
+         //mark
          }
          break;
          }
@@ -209,9 +229,11 @@ class sitarabank
          }
          default:
          {
-         System.out.println("USER INPUT IS WRONG");
+         System.out.println();
+         System.out.println(usw);
+         System.out.println();
          }
-         System.exit(0);
+         //mark
          }
          }
          else
