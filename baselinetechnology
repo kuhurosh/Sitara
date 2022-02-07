@@ -54,7 +54,7 @@ The requirements for the entities in respect of IT systems and security are pres
 
 2.1 The customer card credentials shall not be stored within the database or the server accessed by the merchant.
 
-2.2 Option for ATM PIN as a factor of authentication for card not present transactions shall not be given.
+2.2 Option for ATM PIN as a factor of authentication for card not present transactions shall not be given
 
 2.3 Instructions on storage of payment system data, as applicable to PSOs, shall apply.
 
