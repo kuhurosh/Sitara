@@ -15,6 +15,6 @@
 
 ## Reporting a Vulnerability
 
-If you want to report any vulnerbility in code you can simply raise issues and define the problem or email us at roshan@parkyrosh.ml
+If you want to report any Vulnerbility in code you can simply raise issues and define the problem or email us at roshan@parkyrosh.ml
 
 
