@@ -19,7 +19,7 @@ Payment Aggregators (PAs) and Payment Gateways (PGs) are intermediaries playing 
 
 ‘Td’ – date of confirmation by the merchant to the intermediary about delivery of goods to the customer.
 
-‘Tr’ – date of expiry of refund period as fixed by the merchant.
+‘Tr’ – date of expiry of refund period as fixed by the merchant
 
 2. Applicability
 
