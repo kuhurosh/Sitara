@@ -2,7 +2,9 @@
 ######  You Define We Create
   
   
-This is a CLI banking integration created by me, as it was my dream to create my own banking portal but this not so much advanced banking script because i haven't implemented any backend database servers. I am still learning so if you are intrested in making this script more unique so please share me your thoughts.
+This CLI banking script for computers, laptops and macbook which is able to create Savings Account, Current Account, Deposit Account and many more. Multiple transactions can be done using this script and you can also create temporary accounts which will be only active for selective time period.
+
+##### * WE ARE CURRENTLY WORKING ON THIS SCRIPT YOU MAY NOT ABLE TO USE IT PROPERLY BECAUSE SERVERS ARE DOWN *
 
 #### TO USE THIS SCRIPT YOU MUST HAVE JDK VERSIONS ABOVE JDK 15 -
 
