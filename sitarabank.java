@@ -4,12 +4,22 @@ import java.net.InetAddress;
 import java.net.URL;
 import java.net.UnknownHostException;
 import java.util.Scanner;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
 
 import javax.lang.model.util.ElementScanner14;
 class sitarabank
 {
     public static void main (String[]args) throws UnknownHostException
     {
+        try {
+        URL url = new URL("http://www.google.com");
+        URLConnection connection = url.openConnection();
+        connection.connect();
+        System.out.println("Internet is connected");
+
         //variables start here  
         int max = 20;
         int min = 1;
@@ -248,6 +258,14 @@ class sitarabank
          }
         }
 
-
+        }
+        catch (MalformedURLException e) 
+        {
+            System.out.println("INTERNET IS NOT CONNECTED");
+        } 
+         catch (IOException e) 
+        {
+            System.out.println("INTERNET IS NOT CONNECTED");
+        }
     }
 }
