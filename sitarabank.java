@@ -53,7 +53,7 @@ class sitarabank
          //user interface start here
          Scanner sc = new Scanner(System.in);
          System.out.println("");
-         System.out.println("VERSION 1.0");
+         System.out.println("VERSION 1.1");
          System.out.println("");
          System.out.println("KINDLY ENTER YOUR FIRST NAME");
          String namone = sc.nextLine();
