@@ -53,7 +53,7 @@ class sitarabank
          //user interface start here
          Scanner sc = new Scanner(System.in);
          System.out.println("");
-         System.out.println("VERSION 1.1");
+         System.out.println("VERSION 1.0");
          System.out.println("");
          System.out.println("KINDLY ENTER YOUR FIRST NAME");
          String namone = sc.nextLine();
@@ -84,7 +84,7 @@ class sitarabank
          System.out.println("");
          }
          System.out.println("PLEASE ADD BOTH THE "+random_int_one+" + "+random_int_two+" NUMBER'S TO VERIFY YOURSELF");
-         System.out.println("YOU HAVE "+i+" CHANCES LEFT");
+         System.out.println("YOU HAVE CHANCES 4");
          int sumca = 8-i;
          System.out.println("CHANCES USED "+i);
          int userenone = sc.nextInt();
@@ -175,7 +175,54 @@ class sitarabank
          {
          case 1:
          {
-                 
+         while(true)
+         {
+         for(int n = 0; n<5; n++)
+         if(n==4)
+         {
+         System.out.println("YOU HAVE USED ALL CHANCES");
+         System.out.println("PLEASE TRY AGAIN LATER");
+         System.exit(0);
+         }
+         else
+         {
+         System.out.println();
+         System.out.println("YOU HAVE 4 CHANCES");
+         System.out.println("CHANCES USED - "+n);
+         System.out.println("ENTER YOUR 12 DIGIT UNIQUE IDENTIFICATION NUMBER");
+         long useruid = sc.nextLong();
+         long useruidcal = 0;
+         long useruidcopy = useruid;
+         while(useruid>0)
+         {
+         useruid = useruid/10;
+         useruidcal++;
+         }
+         if(useruidcal==0)
+         {
+         System.out.println();
+         System.out.println("PLEASE ENTER THE UID");
+         System.out.println();
+         }
+         else if(useruidcal==12)
+         {
+         System.out.println("SET 6 DIGIT PIN");
+         System.exit(0);
+         }
+         else if(useruidcal>12)
+         {
+         System.out.println();
+         System.out.println("YOUR UID IS MORE THAN 12 DIGITS");
+         System.out.println();
+         }
+         else
+         {
+         System.out.println();
+         System.out.println("YOUR UID IS LESS THAN 12 DIGITS");
+         System.out.println();
+         }
+         }
+         }
          }
          default:
          {
@@ -216,7 +263,7 @@ class sitarabank
          }
          case 2:
          {
-            System.out.println("Hi");
+         System.out.println("Hi");
          break;
          }
          case 3:
