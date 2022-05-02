@@ -180,9 +180,11 @@ class sitarabank
          for(int n = 0; n<5; n++)
          if(n==4)
          {
+         System.out.println();
          System.out.println("YOU HAVE USED ALL CHANCES");
          System.out.println("PLEASE TRY AGAIN LATER");
          System.exit(0);
+         System.out.println();
          }
          else
          {
@@ -206,8 +208,83 @@ class sitarabank
          }
          else if(useruidcal==12)
          {
-         System.out.println("SET 6 DIGIT PIN");
+         System.out.println("");
+         System.out.println("YOUR UID NUMBER IS "+useruidcopy);
+         System.out.println("");
+         System.out.println("TYPE (1) IF IT IS CORRECT");
+         System.out.println("FOR RESUBMITTING YOUR NUMBER TYPE (0)");
+         int userchfive = sc.nextInt();
+         if(userchfive==1)
+         {
+         while(true)
+         {
+         for(int j = 0; j<4; j++)
+         if(j==3)
+         {
+         System.out.println();
+         System.out.println("YOU HAVE USED ALL CHANCES");
+         System.out.println("PLEASE TRY AGAIN LATER");
          System.exit(0);
+         System.out.println();
+         }
+         else
+         {
+         System.out.println();
+         System.out.println("YOU HAVE 3 CHANCES");
+         System.out.println("CHANCES USED - "+j);
+         System.out.println("ENTER YOUR 12 DIGIT UNIQUE IDENTIFICATION NUMBER");
+         System.out.println("SET 6 DIGIT PIN");
+         int userpin = sc.nextInt();
+         System.out.println("RE-TYPE THE PIN");
+         int userpintwo = sc.nextInt();
+         int userpincheck = 0;
+         int userpincopy = userpin;
+         if(userpin==userpintwo)
+         {
+         while(userpin>0)
+         {
+         userpin = userpin/10;
+         userpincheck++;
+         }
+         if(userpincheck==0)
+         {
+         System.out.println();
+         System.out.println("PLEASE SET PIN");
+         System.out.println();
+         }
+         else if(userpincheck>6)
+         {
+         System.out.println();
+         System.out.println("YOUR PIN IS GREATER THAN SIX DIGIT");
+         System.out.println();
+         }
+         else if(userpincheck<6)
+         {
+         System.out.println();
+         System.out.println("YOUR PIN IS LESS THAN SIX DIGIT");
+         System.out.println();
+         }
+         else
+         {
+         System.out.println("done");
+         }
+         }
+         else
+         {
+         System.out.println();
+         System.out.println("PIN DOES NOT MATCH");
+         System.out.println("PLEASE ENTER IT CORRECTLY");
+         System.out.println();
+         }
+         }
+         }
+         }
+         else
+         {
+         System.out.println();
+         System.out.println("PLEASE ENTER YOUR ID AGAIN");
+         System.out.println();
+         }
          }
          else if(useruidcal>12)
          {
@@ -215,7 +292,7 @@ class sitarabank
          System.out.println("YOUR UID IS MORE THAN 12 DIGITS");
          System.out.println();
          }
-         else
+         else if(useruidcal<12)
          {
          System.out.println();
          System.out.println("YOUR UID IS LESS THAN 12 DIGITS");
