@@ -189,7 +189,7 @@ class sitarabank
          else
          {
          System.out.println();
-         System.out.println("YOU HAVE 4 CHANCES");
+         System.out.println("YOU HAVE 3 CHANCES");
          System.out.println("CHANCES USED - "+n);
          System.out.println("ENTER YOUR 12 DIGIT UNIQUE IDENTIFICATION NUMBER");
          long useruid = sc.nextLong();
@@ -266,7 +266,57 @@ class sitarabank
          }
          else
          {
+         while(true)
+         {
+         for(int jv = 0; jv<4; jv++)
+         if(jv==3)
+         {  
+         System.out.println("");
+         System.out.println("YOU HAVE USED ALL CHANCES");
+         System.out.println("PLEASE TRY AGAIN LATER");
+         System.exit(0);
+         System.out.println("");
+         }
+         else
+         {
+         System.out.println("");
+         System.out.println("YOU HAVE 3 CHANCES");
+         System.out.println("CHANCES USED - "+jv);
+         System.out.println("");
+         System.out.println("ENTER YOUR RESIDENTIAL ADDRESS");
+         String resdenone = sc.nextLine();
+         long resnum = resdenone.length();
+         if(jv==3)
+         {
+         System.out.print("YOU HAVE USED ALL YOUR CHANCES");
+         System.exit(0);
+         }
+         else if(resnum==0)
+         {
+         System.out.println("PLEASE ENTER YOUR RESIDENTIAL ADDRESS");
+         }
+         else
+         {
+         System.out.println("");
+         System.out.println("YOUR RESENDENTIAL ADDRESS IS "+resdenone);
+         System.out.println("");
+         System.out.println("TYPE (1) IF IT IS CORRECT");
+         System.out.println("FOR RESUBMITTING YOUR NUMBER TYPE (0)");
+         int userchsix = sc.nextInt();
+         if(userchsix==1)
+         {
          System.out.println("done");
+         System.exit(0);
+         }
+         else
+         {
+         System.out.println("");
+         System.out.println("RESUBMITION");
+         System.out.println("");
+         }
+         }
+         }
+         }
          }
          }
          else
@@ -281,9 +331,9 @@ class sitarabank
          }
          else
          {
-         System.out.println();
-         System.out.println("PLEASE ENTER YOUR ID AGAIN");
-         System.out.println();
+         System.out.println("");
+         System.out.println("RESUBMITION");
+         System.out.println("");
          }
          }
          else if(useruidcal>12)
