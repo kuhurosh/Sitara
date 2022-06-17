@@ -9,6 +9,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import javax.lang.model.util.ElementScanner14;
+import java.time.format.DateTimeFormatter;  
+import java.time.LocalDateTime;  
 class sitarabank
 {
     public static void main (String[]args) throws UnknownHostException
@@ -28,17 +30,16 @@ class sitarabank
         //variables end here
         //java version handler
          System.out.println("");
-         System.out.println("CREATED BY TEAMROSH FINTECH SOLUTIONS");
+         System.out.println("CREATED BY TEAMROSH FINTECH TECHNOLOGIES");
          System.out.println("");
-         System.out.println("Java Version is : "+System.getProperty("java.version"));
+         System.out.println("TERMINAL ACCESSED ON");
+         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
+         LocalDateTime now = LocalDateTime.now();  
+         System.out.println(dtf.format(now));
          System.out.println("");
-         System.out.println("Java Version Date : "+System.getProperty("java.version.date"));
-         System.out.println("");
-         System.out.println("Java Vendor : "+System.getProperty("java.vendor"));
-         System.out.println("");     
-        //internet address start here
+         //internet address start here
          InetAddress localhost = InetAddress.getLocalHost();
-         System.out.println("SYSTEM IP ADDRESS : " +(localhost.getHostAddress()).trim());
+         System.out.println("FROM IP ADDRESS : " +(localhost.getHostAddress()).trim());
          String systemipaddress = "";
          try
          {
@@ -50,6 +51,17 @@ class sitarabank
          {
          }
          //internet address end here
+         //user device details start here
+         System.out.println(""); 
+         System.out.println("Os Name : "+System.getProperty("os.name"));
+         System.out.println("");  
+         System.out.println("Java Version is : "+System.getProperty("java.version"));
+         System.out.println("");
+         System.out.println("Java Version Date : "+System.getProperty("java.version.date"));
+         System.out.println("");
+         System.out.println("Java Vendor : "+System.getProperty("java.vendor"));
+         System.out.println(""); 
+         //user device details end here    
          //user interface start here
          Scanner sc = new Scanner(System.in);
          System.out.println("");
