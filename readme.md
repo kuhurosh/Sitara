@@ -1,7 +1,3 @@
-# Sitara
-######  You Define We Create
-  
-  
 This CLI banking script for computers, laptops and macbook which is able to create Savings Account, Current Account, Deposit Account and many more. Multiple transactions can be done using this script and you can also create temporary accounts which will be only active for selective time period.
 
 ##### * WE ARE CURRENTLY WORKING ON THIS SCRIPT YOU MAY NOT ABLE TO USE IT PROPERLY BECAUSE SERVERS ARE DOWN *
